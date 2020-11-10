@@ -15,5 +15,7 @@ Searches files in specify directory by glob, name of file or regex. Saves matche
 6. В программе должна быть валидация ключей и подсказка.
 
 Решение:
+
 Главным является класс ru.job4j.exam.FileSearchApp. При его запуске в параметрах нужно указать команды поиска, например: -d c:/ -n *.txt -m -o log.txt Найденные в директории "с:/" и ее подкаталогах файлы по маске "*.txt" будут записаны в файл log.txt.
+
 Также можно скачать готовый Find.jar файл проекта из папки /out/artifacts/Find_jar/ и запустить его из командной строки, используя, например, команду: java -jar find.jar -d c:/ -n *.txt -m -o log.txt
